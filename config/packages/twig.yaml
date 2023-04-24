@@ -1,0 +1,8 @@
+twig:
+    default_path: '%kernel.project_dir%/templates'
+    globals:
+        author: Ali Shikhiyev
+
+when@test:
+    twig:
+        strict_variables: true
